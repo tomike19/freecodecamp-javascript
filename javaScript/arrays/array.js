@@ -10,3 +10,9 @@ const Array = [["sheeps", 23], ["rams", 45]];
 const myArrayIndex = [50, 60, 70];
 
 const myData=myArrayIndex[0];
+
+
+
+//Modify Array Data With Indexes
+const modifyArray = [18, 64, 99];
+modifyArray[0]=[45];
