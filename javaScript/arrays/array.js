@@ -26,3 +26,13 @@ const accessArray = [
 ];
 
 const accessData =accessArray[2][1];
+
+//Manipulate Arrays With push
+
+<p>An easy way to append data to the end of an array is via the push() function.
+
+.push() takes one or more parameters and "pushes" them onto the end of the array.</p>
+
+const myArrayPush = [["John", 23], ["cat", 2]];
+
+myArrayPush.push(["dog", 3])
