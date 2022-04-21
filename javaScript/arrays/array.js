@@ -59,6 +59,15 @@ myArrayPush.push(['dog', 3])
 // Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
 
 const myArrayPop = [["John", 23], ["cat", 2]];
-const removedFromMyArray = yArrayPop.pop()
+const removedFromMyArray = ArrayPop.pop()
 console.log(myArrayPop)
 
+// Manipulate Arrays With shift()
+{/* <p>pop() always removes the last element of an array. What if you want to remove the first?
+
+That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.</p> */}
+const myArrayShift = [["John", 23], ["dog", 3]];
+const removedFromOurArray = myArrayShift.shift();
+
+
+//Manipulate Arrays With unshift()
