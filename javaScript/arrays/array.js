@@ -16,3 +16,13 @@ const myData=myArrayIndex[0];
 //Modify Array Data With Indexes
 const modifyArray = [18, 64, 99];
 modifyArray[0]=[45];
+
+//Access Multi-Dimensional Arrays With Indexes
+const accessArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const accessData =accessArray[2][1];
