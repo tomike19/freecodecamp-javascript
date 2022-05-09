@@ -59,7 +59,7 @@ myArrayPush.push(['dog', 3])
 // Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
 
 const myArrayPop = [["John", 23], ["cat", 2]];
-const removedFromMyArray = ArrayPop.pop()
+const removedFromMyArray = myArrayPop.pop()
 console.log(myArrayPop)
 
 // Manipulate Arrays With shift()
@@ -71,3 +71,5 @@ const removedFromOurArray = myArrayShift.shift();
 
 
 //Manipulate Arrays With unshift()
+const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];
+console.log(shopping);
