@@ -79,4 +79,5 @@ const removedFromOurArray = myArrayShift.shift()
 
 //Manipulate Arrays With unshift()
 const learnArray = ['I', 'learnt', 'javascript', 'for', [2, 3, 4], 'hours']
-console.log(learnArray.length)
+learnArray[3]='in';
+console.log(learnArray)
