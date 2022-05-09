@@ -80,6 +80,6 @@ const removedFromOurArray = myArrayShift.shift()
 //Manipulate Arrays With unshift()
 const learnArray = ['I', 'learnt', 'javascript', 'for', [2, 3, 4], 'hours']
 // console.log(learnArray.indexOf('learnt'));
-const learn=learnArray.push('here')
+learnArray.shift('I')
 console.log(learnArray)
-console.log(learn)
+// console.log(learn)
